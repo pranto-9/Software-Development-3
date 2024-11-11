@@ -41,9 +41,11 @@
 %>
 <!-- Include a header file -->
 <jsp:include page="header.jsp" />
+<!-- Main container for displaying the profile -->
 
 <div class="container bg-secondary">
     <div class="row">
+<!-- Breadcrumb navigation for easy navigation -->
         <div class="col">
             <nav aria-label="breadcrumb" class="bg-light rounded-3 p-3 mb-4">
                 <ol class="breadcrumb mb-0">
@@ -53,6 +55,7 @@
             </nav>
         </div>
     </div>
+<!-- Profile layout: Left side for user image and summary, right side for details -->
 
     <div class="row">
         <div class="col-lg-4">
@@ -64,6 +67,7 @@
                     </h5>
                 </div>
             </div>
+ <!-- Card for the 'My Profile' section heading -->
             <div class="card mb-4 mb-lg-0">
                 <div class="card-body p-0">
                     <ul class="list-group list-group-flush rounded-3">
@@ -75,8 +79,10 @@
             </div>
         </div>
         <div class="col-lg-8">
+ <!-- Card for displaying detailed profile information -->
             <div class="card mb-4">
                 <div class="card-body">
+<!-- Full Name Section -->
                     <div class="row">
                         <div class="col-sm-3">
                             <p class="mb-0">Full Name</p>
@@ -86,6 +92,7 @@
                         </div>
                     </div>
                     <hr>
+<!-- Email Section -->
                     <div class="row">
                         <div class="col-sm-3">
                             <p class="mb-0">Email</p>
@@ -95,6 +102,7 @@
                         </div>
                     </div>
                     <hr>
+ <!-- Phone Section -->
                     <div class="row">
                         <div class="col-sm-3">
                             <p class="mb-0">Phone</p>
@@ -104,6 +112,7 @@
                         </div>
                     </div>
                     <hr>
+ <!-- Address Section -->
                     <div class="row">
                         <div class="col-sm-3">
                             <p class="mb-0">Address</p>
@@ -113,6 +122,7 @@
                         </div>
                     </div>
                     <hr>
+ <!-- PinCode Section -->
                     <div class="row">
                         <div class="col-sm-3">
                             <p class="mb-0">PinCode</p>
